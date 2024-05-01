@@ -193,3 +193,16 @@ See [LICENSE] for details.
 [typescript-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/affine/dev/typescript
 [react-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/react?filename=packages%2Ffrontend%2Fcore%2Fpackage.json&color=rgb(97%2C228%2C251)
 [blocksuite-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/@blocksuite/store?color=6880ff&filename=packages%2Ffrontend%2Fcore%2Fpackage.json&label=blocksuite
+
+
+## RUN
+
+Windows: 
+1. Install https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+```bash
+$> cargo build
+$> npm install simple-git
+$> npm i @napi-rs/cli\
+$> npm run dev
+```
