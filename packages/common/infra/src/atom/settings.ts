@@ -70,9 +70,9 @@ const appSettingBaseAtom = atomWithStorage<AppSetting>('affine-settings', {
   startWeekOnMonday: false,
   enableBlurBackground: true,
   enableNoisyBackground: true,
-  autoCheckUpdate: true,
-  autoDownloadUpdate: true,
-  enableTelemetry: true,
+  autoCheckUpdate: false,
+  autoDownloadUpdate: false,
+  enableTelemetry: false,
   enableMultiView: false,
   editorFlags: {},
 });

@@ -32,7 +32,7 @@ export const LocalDemoTips = ({
 
   return (
     <div className={styles.tipsContainer} data-testid="local-demo-tips">
-      <div className={styles.tipsMessage}>
+      {/* <div className={styles.tipsMessage}>
         {t['com.affine.banner.local-warning']()}
       </div>
 
@@ -46,7 +46,7 @@ export const LocalDemoTips = ({
         >
           <CloseIcon />
         </IconButton>
-      </div>
+      </div> */}
     </div>
   );
 };
